@@ -50,4 +50,15 @@ let c = 10;
   } 
 
   //or
-  console.log(f>g)
+  console.log(f>g) //if f is greater than g
+
+  console.log(f<g) //if f is less than g
+  console.log(f<=g) //if f is less than or equal to g
+  console.log(f>=g) //if f is greater than or equal to g    
+
+  //logical operator
+
+  console.log(f>g && f==g) //and
+  console.log(f>g || f==g) //or
+  console.log(!f>g) //not   
+  
