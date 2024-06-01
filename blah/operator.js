@@ -13,3 +13,41 @@ console.log("a++=",a++);  //post increment will increase later and console the p
 console.log("a--=",a--); //post decreamnet will decrease later and console the previous value
 console.log("++a=",++a);  //pre increment will increase first and console the value
 console.log("--a=",--a);  //pre and decrement will decrease first and console the value
+
+
+
+//assignment operator
+
+let c = 10;
+ c += 5 //same as c = c+5
+ console.log(c)
+ //it is same for the other as well
+
+ //comparison operator
+
+  let d = 10;
+  let e = "10";
+  console.log(d==e) // it will check if both are equal or not and will not check same type or not
+
+  console.log(d === e) // it will check if both are equal or not and will check same type or nnot
+
+  console.log(d !== e) // it will check if both are not equal or not and also will check same type or not
+
+  console.log(d != e) // it will check if both are not equal or not and also will not check same type or not
+
+  //ternary operator
+
+  let f = 10;
+ let g = 11;
+ let h = f > g ? "f is greater" : "g is greater";
+ console.log(h) 
+  //or 
+  if(f>g){
+    console.log("f is greater")
+  }
+  else{
+    console.log("g is greater")
+  } 
+
+  //or
+  console.log(f>g)
