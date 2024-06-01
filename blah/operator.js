@@ -41,24 +41,13 @@ let c = 10;
  let g = 11;
  let h = f > g ? "f is greater" : "g is greater";
  console.log(h) 
-  //or 
-  if(f>g){
-    console.log("f is greater")
-  }
-  else{
-    console.log("g is greater")
-  } 
-
-  //or
-  console.log(f>g) //if f is greater than g
-
-  console.log(f<g) //if f is less than g
-  console.log(f<=g) //if f is less than or equal to g
-  console.log(f>=g) //if f is greater than or equal to g    
+  
 
   //logical operator
 
   console.log(f>g && f==g) //and
   console.log(f>g || f==g) //or
   console.log(!f>g) //not   
-  
+
+
+  //conditonal 
