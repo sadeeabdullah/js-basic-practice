@@ -1,0 +1,2 @@
+function is a set of statements that performs some operation or calculations on  the input value.
+It will work after invoking it.
