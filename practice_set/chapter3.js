@@ -22,9 +22,19 @@ for(let key in sadeesMark){
 //Q3 : write a program to print try again untill    the input is correct number
 
 const theNumber= 221;
-let j = 0;
+let j = 221;
 
 while(j != theNumber){
      //console.log("try again")  // i have comment this cause it will run untill the number is correct and if i don't stop it will run infinitly and it will crush the js runtime
 }
 console.log("you have got it right")
+
+// finding the mean of 4 numbers using the function
+
+const mean = (a,b,c,d)=>{
+    return (a+b+c+d)/4
+}
+
+// invoking the function
+
+console.log(mean(1,2,3,4))
