@@ -1,4 +1,7 @@
 //question
 
+*strings are immatable you can't change it you can declare a new one with the string changes look
+after using any method on string it will always return a new string
+
 what is string interpolation?
 ans: we can insert variable directly in template literals. this is called string interpolation

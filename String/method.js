@@ -25,3 +25,9 @@ console.log(name.concat("is a friend of ",friend))
 //to remove the spaces
 let friend2 = "  nulla    "
 console.log(friend2.trim())
+
+
+//includes methdo
+
+//it will check that if the string is present in the string or not
+console.log(name.includes("e"))
