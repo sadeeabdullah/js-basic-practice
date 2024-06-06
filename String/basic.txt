@@ -1,0 +1,4 @@
+//question
+
+what is string interpolation?
+ans: we can insert variable directly in template literals. this is called string interpolation
