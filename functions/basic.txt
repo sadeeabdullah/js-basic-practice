@@ -1,2 +1,23 @@
-function is a set of statements that performs some operation or calculations on  the input value.
+function is a set of statements or  block of code that performs some operation or calculations on  the input value.
 It will work after invoking it.
+syntax of function is like this:
+    funciton funcitonName(parameters){
+        console.log("hello world! man")
+    }
+
+after invoking it like this:
+    funcitonName()
+
+here parameters wil behave like local variables into funciton.
+
+
+if you don't invoke or call the function it will not be read or run.
+
+Here is 2 way to write function: 
+    1.Normal way (that we have used above)
+    2. arrow function (
+        example:
+            const hello = () =>{
+                console.log("hello)
+            }
+    )
