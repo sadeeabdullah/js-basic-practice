@@ -28,6 +28,8 @@ console.log(name[4])
  let backspace = 'hello\bworld';  // it will take a backspace
  let formFeed = 'hello\fworld'; // it will take a form feed
  let backslash = 'hello\\world'; // it will take a backslash
- let  dash = 'hello\rworld'; // it will take a overwrite the previous word
+ let  dash = 'hello\rworld'; // it will take a overwrite the previous word (carriage return)
 
- console.log(formFeed,backslash,dash)
+ //THE ESCAPE CHARACTER WILL NOT BE COUNTED IN LENGTH
+
+console.log(fruit, lineBreak, tab, backspace, formFeed, backslash, dash)
