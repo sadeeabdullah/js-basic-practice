@@ -19,3 +19,15 @@ console.log(name[4])
  const boy2 = "sed"
  const sentence = `the boys are ${boy1} and ${boy2}`
  console.log(sentence)
+
+ //escape sequence characters
+
+ let fruit = 'apple\'s';  // it will take a single quote
+ let lineBreak = 'hello\nworld'; // it will take a line break
+ let tab = 'hello\tworld'; // it will take a tab
+ let backspace = 'hello\bworld';  // it will take a backspace
+ let formFeed = 'hello\fworld'; // it will take a form feed
+ let backslash = 'hello\\world'; // it will take a backslash
+ let  dash = 'hello\rworld'; // it will take a overwrite the previous word
+
+ console.log(formFeed,backslash,dash)
