@@ -10,3 +10,11 @@ let sadeesMark={
 for(let i=0; i<Object.keys(sadeesMark).length; i++){  //here used object.keys() to get the keys
     console.log("the marks of"+Object.keys(sadeesMark)[i]+" is" +" " +sadeesMark[Object.keys(sadeesMark)[i]])
 }
+
+//do it using for in loop
+
+for(let key in sadeesMark){
+    console.log("the marks of"+ " " + key + " is " + sadeesMark[key])
+}
+
+// its easy and good to use in case of object
