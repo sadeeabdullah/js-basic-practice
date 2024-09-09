@@ -1,5 +1,5 @@
 
-let num = "30"
+let num = "5"
 num =  Number.parseInt(num)
 // switch(num){
 //     case 10:
@@ -28,4 +28,15 @@ num =  Number.parseInt(num)
 //     console.log("number is not divisible by 2 or 3")
 // }
 
-console.log(num>18? "eligible" : "not eligible")
+// console.log(num>18? "eligible" : "not eligible")
+
+switch(true){
+    case (num>10):
+        console.log('you are greater than 10')
+        break;
+        case(num<10):
+            console.log('you are lower than 10')
+            break;
+            default:
+                console.log('you are equal to 10')
+}
