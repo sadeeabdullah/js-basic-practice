@@ -6,5 +6,17 @@
  }
 
  for( let a in obj){
-    console.log( "marks of " + a +  "is "+ obj[a])
+    console.log( "marks of " + a +  " is "+ obj[a])
+ }
+
+
+ let marks = {
+    abdullah : 344,
+    johandream : 4223,
+    jackathon : 534,
+    jillamiya : 234
+ }
+
+ for (let name in marks){
+    console.log("marks of " + name + " is " + marks[name])
  }
