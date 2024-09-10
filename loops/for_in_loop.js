@@ -9,6 +9,12 @@
     console.log( "marks of " + a +  " is "+ obj[a])
  }
 
+//  program to add first n natural number
+let sum = 0
+for (let i = 0; i<3; sum = sum + i++){
+   sum = sum + i
+}
+console.log(sum)
 
  let marks = {
     abdullah : 344,
