@@ -59,3 +59,13 @@ for(let i = 2; i<p ; i++){
     }
 }
 console.log(tot ,"is the prime numbers total")
+
+//LETS WRITE A PROGRAM TO GET A FACTORIAL VALUE OF ANY NUMBER
+
+let fact = 10
+let result = 1
+for (let i = 1; i<=fact; i++){
+    result *= i
+    
+}
+console.log(result,"tullu")
