@@ -40,4 +40,22 @@ for (let i = 0; i<o; i++){
         summation += i
     }
 }
-// console.log("the summation for the first",o, "natural odd numbers is",summation)
+console.log("the summation for the first",o, "natural odd numbers is",summation)
+
+//LETS  CREATE A PROGRAM FOR GETTING THE TOTAL OF FIRST P NATURAL PRIME NUMBERS
+let tot = 0
+let p=100
+for(let i = 2; i<p ; i++){
+    let isPrime = true;
+    for (let j= 2; j<i; j++){
+        if(i % j == 0){
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime){
+        tot +=i
+        
+    }
+}
+console.log(tot ,"is the prime numbers total")
