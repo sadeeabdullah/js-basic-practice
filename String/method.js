@@ -1,4 +1,8 @@
+                                        //NAME IS IMMUTABLE. ONLY YOU CAN MANIPULATE AND PRODUCE A NEW STRING
+
 // METHOD IS USED TO MANIPULATE STRING
+
+
 
 //GETTING THE LENGTH OF STRING
 let name = 'sadee'
@@ -35,3 +39,10 @@ console.log(school.trim()) // NOTE : It will trim the unusual space before and a
                                                 /**
                                                  * NO NEED TO REMEMBER ALL THE METHODS YOU CAN SIMPLY DO  GOOGLE SEARCH AND USE IT WHEN YOU NEED ONE
                                                  */
+
+
+// QUICKQUIZ: USE A FOR LOOP TO PRINT A STRING ALL INDEX
+
+for(let i = 0; i<name.length; i++){
+    console.log(name[i])
+}
