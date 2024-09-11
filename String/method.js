@@ -11,3 +11,27 @@ console.log(name.toUpperCase())
 
 //MAKING THE STRING LOWERCASE
 console.log(name.toLowerCase())
+
+//MAKING A SLICE OF THE STRING AND SHOW
+console.log(name.slice(2,4)) //NOTE: Indexing start from 0. from  2 to 4  will be sliced but the 4 will not be included.
+console.log(name.slice(2)) //NOTE: Indexing start from 0. from  2 to last will be sliced if you don't use any second argument into the slice method.
+
+//REPLACING ANY INDEX OF STRING
+console.log(name.replace("sad","pad")) //NOTE: using replace method you can replace any strings index parts with a desire string or strings.
+
+//CONCATING STRINGS
+let friend = 'no one'
+console.log(name.concat(" is a friend of ",friend)) // NOTE: It will add another string with the first string
+
+//TRIM METHOD (TRIM THE SPACE)
+let school = "       school name is jpi                   "
+console.log(school.trim()) // NOTE : It will trim the unusual space before and after the string.
+
+
+
+
+
+
+                                                /**
+                                                 * NO NEED TO REMEMBER ALL THE METHODS YOU CAN SIMPLY DO  GOOGLE SEARCH AND USE IT WHEN YOU NEED ONE
+                                                 */
