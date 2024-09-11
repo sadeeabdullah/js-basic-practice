@@ -1,7 +1,8 @@
-const namelist=["John", "Jane", "Jack", "Jill"];
-let i=0;
-while(i<namelist.length){
-    console.log(namelist[i].toUpperCase());
-    i++;
+//LETS CREATE A WHILE LOOP AND UNDERSTAND HOW IT  WORKS
+
+let i = 0 ;
+while(i<10){
+    console.log(i)
+    i = i+2
 }
-// first it will check the condition and run the block
+
