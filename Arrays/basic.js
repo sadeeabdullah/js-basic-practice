@@ -12,3 +12,11 @@ console.log(a.length)
  a[1] = 53 //CHANGING THE FIRST VALUE OF AN ARRAY
  console.log(a)
  console.log(typeof a) //ARRAYS ARE OBJECT. ARRAYS CAN HOLD MANY VALUES UNDER A SINGLE NAME.
+
+
+ //DISPLAYING THE ARRAY ELEMENT USING FOR LOOP
+
+ let b = [1,23,242,32]
+ for(let i = 0; i<b.length;i++){
+    console.log(b[i])
+ }
