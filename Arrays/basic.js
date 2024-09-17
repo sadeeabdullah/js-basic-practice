@@ -1,0 +1,7 @@
+
+//ARRAYS ARE VARIABLES WHICH CAN HOLD MORE THAN ONE VALUE.
+let a = [1,23,34,56,"not present",null, false]  //NOTE: WE CAN STORE MULTIPLE TYPE OF DATA INTO ONE ARRAY.
+console.log(a[6])
+
+//TO MEASURE THE LENGTH OF AN ARRAY WE USE .length PROPERTY
+console.log(a.length)
