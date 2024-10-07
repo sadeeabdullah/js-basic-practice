@@ -1,0 +1,52 @@
+Understanding Operators, Methods, and Functions in JavaScript
+
+When getting started with JavaScript, many beginners encounter confusion surrounding the concepts of operators, methods, and functions. While they may seem similar, each serves a distinct purpose in the language.
+
+Lets give a try to clarify the core concepts shortly:
+
+Operators:
+
+    Definition: Operators are symbols that perform operation between operands in the program.
+
+    Example: (3 + 4 = 7) to get the operation in basic mathmetical term 3 and 4 are operand and "+" is operator. We get the result of the operation is 7.
+
+    Notes: There are few special unary operators in JavaScript.To make it more appropiate we can add the 'typeof' operator in the talk. As we know typeof operator simply determine single data type.
+
+    Classification: sorting out the operator is a relatively easy process.Usually it work with one or more operand and while using it we don't need any parenthesis.To memorize it more efficiently we can look at a few examples of syntax: a + b, typeof a.
+
+
+Functions:
+
+    Definition: A block of code that is reusable in program to perform specific operation is called function.
+
+    Types: Basically there is 2 categories of function one is Built-in function (Pre-defined by JavaScript) and the other one is User-defined function (function created by the user or developer)
+
+    Example: parseInt(33.53)[It is a built-in function. It will convert the decimal number to an integer number],
+    function sum(a,b){
+        return a + b;
+    }
+    sum(10,12) [Here sum is the User-defined function]
+
+    Notes: Marking something in code as function is uncertain for few reason.The classification of method will help you to understand it.
+
+    Classification: To invoke funtion, we follow the syntax below
+     functionName(parameters)
+    Parenthesis and single or mulitple parameters are used in function.
+
+
+Methods:
+
+    Definition: A block of code that is reusable into a object to perform specific operation is called Method.
+
+    Example: const calculator = {
+            name:"john"
+            add: function(x, y) {
+                return x + y;
+            }
+            };
+
+    Notes: A method is also a function, but it is defined as a property of an object.
+
+    Classification: To invoke a method, we follow the syntax below
+     objectName.functionName(parameters)
+    Parenthesis and single or mulitple parameters are used in function.
