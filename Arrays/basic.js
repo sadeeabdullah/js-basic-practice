@@ -20,3 +20,29 @@ console.log(a.length)
  for(let i = 0; i<b.length;i++){
     console.log(b[i])
  }
+
+ const friendGroup1 = ['rahim','karim','tutul','tullu']
+ const friendGroup2 = ['sobbom','totom']
+
+ //IF WE WANT TO CONCAT OR ASSEMBLE 2 ARRAY WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1.concat(friendGroup2))
+
+ //IF WE WANT TO JOIN ARRAY ELEMENT TOGETHER WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1.join('+')) //output rahim+karim
+ console.log(friendGroup1.join()) //output rahim,karim
+
+ //IF WE WANT TO SLICE ARRAY ELEMENT WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1.slice(2,3)) // ['tutul'] provide a new array 
+
+ //IF WE WANT TO CHECK IT IS ARRAY OR  NOT WE HAVE TO USE THE METHOD BEL0W
+ console.log(Array.isArray(friendGroup1))
+
+ //IF WE WANT TO CHECK THE INDEX OF THE ELEMENT IN AN ARRAY WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1.indexOf("tutul"))
+
+ //IF WE WANT TO CHECK THE ELEMENT OF THE INDEX IN AN ARRAY WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1[3])
+
+ //IF WE WANT TO CHECK THE ELEMENT IS INCLUDING IN AN ARRAY OR NOT WE HAVE TO USE THE METHOD BEL0W
+ console.log(friendGroup1.includes( "tutul"))
+
