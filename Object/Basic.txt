@@ -1,0 +1,11 @@
+Object is a similar to array.
+It contains mulitple data type about something
+E.G const college ={
+    name: "shoahdf",
+    place:6,
+    subject:['english', 'bangla'],
+    event:{
+        name:'21 e feb',
+        place:'okhane'
+    }
+}
