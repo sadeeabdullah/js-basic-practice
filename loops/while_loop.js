@@ -13,7 +13,19 @@ while(i<10){
 let num = 0;  //loop variable
 while(num<10){
     console.log('Love you vater und mutter')
-    num += 1;
+    num += 1; //it will increase the valu of number after every execution
 }
 
 
+
+// get the summation using while loop
+let num2 = 0;
+let sum =0;
+while(num2<=10){
+  
+    sum += num2;
+    num2 ++;
+   
+
+}
+console.log(sum)
