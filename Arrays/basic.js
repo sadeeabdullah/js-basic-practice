@@ -46,3 +46,9 @@ console.log(a.length)
  //IF WE WANT TO CHECK THE ELEMENT IS INCLUDING IN AN ARRAY OR NOT WE HAVE TO USE THE METHOD BEL0W
  console.log(friendGroup1.includes( "tutul"))
 
+ //IF WE WANT TO CHECK THE MAX ELEMENT IN AN ARRAY OR NOT WE HAVE TO USE THE METHOD BEL0W
+ const number2=[5234,3462,34]
+ console.log(Math.max(...number2))
+
+
+
