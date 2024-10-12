@@ -24,3 +24,9 @@ const slashN = "sadee is a good boy. \n He work so hard" //NOTE : It will make a
 const slashR = "sadee is a good boy. \r He work so hard" //NOTE : It will replace the first sentence with second one. In JavaScript, a carriage return is represented by the special character \r. It originates from older typewriters where the "carriage" (which holds the paper) would physically return to the beginning of a line when a line was completed.
 const slashT = "sadee is a good boy. \t He work so hard" //NOTE : It will use tab space after the first sentence with second one.
 console.log(about, about1, abouts, abouts1 ,slashN, slashR, slashT)
+
+
+// TO DELETE THE BLANK SPACE ON STARTING AND ENDING OF A STRING WE CAN USE THE PROCESS BELOW;
+
+const N = '  sadee   '
+console.log(N.trim())

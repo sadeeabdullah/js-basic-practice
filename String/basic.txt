@@ -16,3 +16,6 @@ ans : Although String has the similarity with array, we can't change the strings
             const name = 'sadee'
             name[2]='s'
             //output name = 'sadee'
+
+            // BUT WE CAN FOLLOW HE PROCESS BELOW TO CHANGE THE LETTER OF String
+            let newName = name.replace(name[3],"f")
