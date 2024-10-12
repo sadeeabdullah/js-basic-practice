@@ -5,3 +5,14 @@ after using any method on string it will always return a new string
 
 what is string interpolation?
 ans: we can insert variable directly in template literals. this is called string interpolation
+
+
+Can i change the string ?
+ans : Although String has the similarity with array, we can't change the strings element like the array.
+     E.G. const num = [1,23,432];
+            num[2]= 3;
+            //output num =[1,23,3]
+
+            const name = 'sadee'
+            name[2]='s'
+            //output name = 'sadee'
