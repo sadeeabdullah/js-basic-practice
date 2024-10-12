@@ -60,3 +60,8 @@ for (const letter of letters) {
     reverse = letter + reverse
 }
 console.log(reverse)
+
+        // ANOTHER WAY TO REVERSE THE STRING
+
+const reversed = reverse.split('').reverse().join('')
+console.log(reversed)
