@@ -38,3 +38,34 @@ console.log(Number.parseInt(amount))
 
 let newName = name.replace(name[3],"f")
 console.log(newName)
+
+
+         // *** TASK FROM PH GITHUB ***  ///
+
+
+
+
+// COUNT HOW MANYY TIMES A STRING HAS LETTER a
+
+let letters = 'habiba islam'
+let aCount = 0;
+for(let i =0; i<letters.length; i++){
+   const isA=letters[i]
+   if(isA == "a"){
+      aCount++;
+   }
+}
+console.log(aCount)
+
+
+// COUNT HOW MANYY TIMES A STRING HAS LETTER a or A
+
+let letter = 'I have A big dog'
+let aACount = 0;
+for(let i =0; i<letter.length; i++){
+   const isA=letter[i]
+   if(isA == "a" || isA == "A"){
+      aACount++;
+   }
+}
+console.log(aACount)
