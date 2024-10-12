@@ -46,3 +46,17 @@ console.log(school.trim()) // NOTE : It will trim the unusual space before and a
 for(let i = 0; i<name.length; i++){
     console.log(name[i])
 }
+
+//TO SPLIT A STRING USING A CHARACTER OR BLANK SPACE
+
+console.log(school.split(' '))
+
+
+// HOW TO REVERSE A SENTENCE OR STRING USING FOR OF LOOP
+
+let reverse ="";
+const letters="i am not a good one"
+for (const letter of letters) {
+    reverse = letter + reverse
+}
+console.log(reverse)
