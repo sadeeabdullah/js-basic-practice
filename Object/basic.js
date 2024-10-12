@@ -29,3 +29,18 @@ for (const c in college) {
     console.log(c)
     console.log(college[c])
 }
+
+
+// HERE IS THE THREE WAYS TO DECLARE OBJECT
+
+const colleges ={
+    name: "shoahdf",
+    place:6,
+    subject:['english', 'bangla'],
+    event:{
+        name:'21 e feb',
+        place:'okhane'
+    }
+}
+const pen = new Object()
+const pencil = Object.create({})
