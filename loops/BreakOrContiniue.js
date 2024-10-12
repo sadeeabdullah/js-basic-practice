@@ -6,3 +6,12 @@ break;    }
     number++
 }
 console.log('hello')
+
+while(number<10){
+    number++;
+    if(number ==4){
+        continue;
+    }
+    console.log(number)
+}
+
