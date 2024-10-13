@@ -96,3 +96,8 @@ for (const singleWord of singleWords) {
    CapitalizeWords.push(singleWord[0].toUpperCase()+singleWord.slice(1))
 }
 console.log(CapitalizeWords.join(' '))
+
+
+// //Reverse the words of a sentence. Only the position of the word will be reversed. check out the output 
+
+console.log(CapitalizeWords.reverse().join(' '))
