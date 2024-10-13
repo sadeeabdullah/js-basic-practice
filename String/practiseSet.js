@@ -86,3 +86,13 @@ console.log(
    S.replace("X","Y"):
    "no x or X is on the string"
 )
+
+//Capitalize Every first Letter of each word in a String
+
+const singleWords = S.split(" ")
+let CapitalizeWords = [];
+
+for (const singleWord of singleWords) {
+   CapitalizeWords.push(singleWord[0].toUpperCase()+singleWord.slice(1))
+}
+console.log(CapitalizeWords.join(' '))
