@@ -12,3 +12,14 @@ function summation(a,b,c){
 console.log(summation(1,5,7))
 
 // consol(sum)
+
+
+// function for getting the number is odd or not?
+
+function isOdd (n){
+    if (n %2 == 1) {
+        return true
+    }
+    return false;
+}
+console.log(isOdd(12))
