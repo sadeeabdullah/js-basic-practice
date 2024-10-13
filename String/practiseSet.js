@@ -73,4 +73,16 @@ console.log(aACount)
 
 //Check whether a string contains all the vowels a, e, i, o, u
 
-   console.log(letter.includes( "a" && "e" && "i" && "o" && "u") ? "all the vowel is cluded": "some vowels are included")
+console.log(letter.includes( "a" && "e" && "i" && "o" && "u") ? "all the vowel is cluded": "some vowels are included")
+
+
+// If a given string has either x, replace x by y. if the given string has X, replace it by Y.
+
+const S = 'while doing the job i met mr X'
+console.log(
+   S.includes("x")?
+   S.replace("x","y"):
+   S.includes('X')?
+   S.replace("X","Y"):
+   "no x or X is on the string"
+)
