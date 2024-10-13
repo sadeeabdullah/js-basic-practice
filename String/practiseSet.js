@@ -69,3 +69,8 @@ for(let i =0; i<letter.length; i++){
    }
 }
 console.log(aACount)
+
+
+//Check whether a string contains all the vowels a, e, i, o, u
+
+   console.log(letter.includes( "a" && "e" && "i" && "o" && "u") ? "all the vowel is cluded": "some vowels are included")
