@@ -23,3 +23,23 @@ function isOdd (n){
     return false;
 }
 console.log(isOdd(12))
+
+
+function price(number,double) {
+    return double?number*2:number*3;
+}
+console.log(price(4)) //here if i dont provide the double argument its not defined and undefined is false 
+
+
+
+/// doing summation of the numbers in array
+
+function summationOfNumber(numbers) {
+    let summation = 0;
+    for (const number of numbers) {
+        summation += number
+    }
+    return summation
+}
+const nums = [12,123,12]
+console.log(summationOfNumber(nums))
