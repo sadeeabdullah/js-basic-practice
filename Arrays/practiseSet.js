@@ -22,3 +22,19 @@ for (const n in numbers) {
      }
 }
 console.log(evenNumber)
+
+
+// Use a for...of loop to concatenate all the elements of an array into a single string.
+
+var names = ['Tom', 'Tim', 'Tin', 'Tik']
+const nameTogether = []
+
+for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    nameTogether.push(name)
+    
+}
+console.log(nameTogether.join(''))
+
+
+
