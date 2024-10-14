@@ -1,5 +1,7 @@
 function inchToFeet(inch) {
-    const feetInt = inch / 12;
+    
+    const feet = inch / 12;
+    const feetInt = parseInt(feet)
     const feetRemaining = inch % 12;
     if (feetRemaining == 0) {
         return feetInt;
@@ -7,8 +9,7 @@ function inchToFeet(inch) {
     return [feetInt,feetRemaining];
 }
 
-const height = inchToFeet(84);
-console.log(height)
+const height = inchToFeet(37);
 console.log(Array.isArray(height) 
 ? `Your height is ${height[0]} feet, ${height[1]} inches.` 
-: `Your height is ${height}.`)
+: `Your height is ${height} feet`)
