@@ -9,4 +9,4 @@ function delDup(arr) {
     console.log(newArr)
 }
 
-delDup([12,15,125,3,15,12,1156,125])
+delDup([12,15,125,3,15,12,1156,125 ])
