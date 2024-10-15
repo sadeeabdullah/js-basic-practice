@@ -13,3 +13,6 @@ console.log(Math.round(2.25)) // it will round the floating number to the neares
 console.log(Math.round(2.85)) // it will round the floating number to the nearest integer output: 3
 console.log(Math.floor(2.99)) // it will make the lowest integer nearer to the float number. Output: 2
 console.log(Math.ceil(2.99)) // it will make the highest integer nearer to the float number. output:3
+console.log(Math.random()) // getting a random number between 0 to 1 and it can be float number
+console.log(Math.random()*10) // getting a random number between 1 to 10 and it can be float number
+console.log(Math.round(Math.random()*10)) //getting a random number between 1 to 10 and it will be integer number
