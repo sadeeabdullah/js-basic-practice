@@ -23,3 +23,12 @@ console.log(specificDate) /// it will give an output: 2092-01-02T18:00:00.000Z n
 
 specificDate.setMonth(-10);
 console.log(specificDate)
+
+
+console.log(specificDate.toLocaleString('en-GB')) // it will now show the date format regarding the Great Britain follows
+
+
+
+            /// *** How to compare the past time to present time or between anytime *** ///
+
+            ////UNIX EPOC -it is unix epoc to compare date ////
