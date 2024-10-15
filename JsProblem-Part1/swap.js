@@ -16,3 +16,11 @@ console.log(temp)
  a= b;
  b = temp;
  console.log(a,b)
+
+
+ ///HERE IS ANOTHER USED APPROACH IN JS CALLED DESTRUCTING
+
+ let x = 6;
+ let y = 3;
+ [x,y]=[y,x]
+ console.log(x,y)
