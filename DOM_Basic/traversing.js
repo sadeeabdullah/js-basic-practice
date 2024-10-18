@@ -43,6 +43,10 @@ traverseUsingTheclass[0].classList.remove('bg-red')
 console.log(traverseUsingTheclass[0].classList)
 
 
+//we can set attribute using setattribute
+traverseUsingTheclass[0].setAttribute('title','portfolio.sadeeabdullah.com')
+
+console.log(traverseUsingTheclass[0].getAttribute('title'))
 // how to change the style of the html element or building block
 
 traverseUsingTheId.style.backgroundColor="red"
