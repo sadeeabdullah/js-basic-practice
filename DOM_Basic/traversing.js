@@ -13,9 +13,7 @@ console.log(traverseUsingTheId.innerText)
 // it is a method that select the portion or div using the className name and innertext
 const traverseUsingTheclass = document.getElementsByClassName('title-class')
 console.log(traverseUsingTheclass) 
-for (const text of traverseUsingTheclass) {
-        console.log(text.innerText)
-}
+
 
 // it will only traverse first element
 const singleSelector = document.querySelector(".li-container li")
@@ -50,3 +48,19 @@ console.log(traverseUsingTheclass[0].getAttribute('title'))
 // how to change the style of the html element or building block
 
 traverseUsingTheId.style.backgroundColor="red"
+
+// we can get the innertext using innerText
+for (const text of traverseUsingTheclass) {
+    console.log(text.innerText)
+}
+//we can also get the innerHTML
+const liContainer = document.getElementsByClassName('li-container')
+
+const fullelemetn = liContainer[0].innerHTML // we have to use zero index because we are getting the result into a array
+
+console.log(fullelemetn)
+
+//also we can set the innerhtml and text
+liContainer[0].innerHTML=`
+<p>hello</p>
+`
