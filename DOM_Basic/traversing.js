@@ -1,0 +1,1 @@
+// traversing in programming language is a datastructure signinfies accessing each element in data structure systematically.
