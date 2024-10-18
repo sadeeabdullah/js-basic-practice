@@ -9,3 +9,8 @@ console.log(allPTag)
 const traverseUsingTheId = document.getElementById('title')
 console.log(traverseUsingTheId)
 console.log(traverseUsingTheId.innerText)
+
+
+// how to change the style of the html element or building block
+
+traverseUsingTheId.style.backgroundColor="red"
