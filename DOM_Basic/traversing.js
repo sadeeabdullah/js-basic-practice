@@ -12,11 +12,25 @@ console.log(traverseUsingTheId.innerText)
 
 // it is a method that select the portion or div using the className name and innertext
 const traverseUsingTheclass = document.getElementsByClassName('title-class')
-console.log(traverseUsingTheclass) // it will provide array because it will
+console.log(traverseUsingTheclass) 
 for (const text of traverseUsingTheclass) {
         console.log(text.innerText)
 }
 
+
+// The method above will provide HTML collection. We can use forOf into it.
+
+
+//The method below will provide NodeList. we can use forEach into it.
+
+
+// it will traverse multiple elements at once
+const multipleSelector = document.querySelectorAll('.li-container li') ;
+console.log(multipleSelector)
+
+// it will only traverse first element
+const singleSelector = document.querySelector(".li-container li")
+console.log(singleSelector)
 
 
 // how to change the style of the html element or building block
