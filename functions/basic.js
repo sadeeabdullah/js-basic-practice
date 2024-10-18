@@ -37,9 +37,9 @@ console.log(price(4)) //here if i dont provide the double argument its not defin
 function summationOfNumber(numbers) {
     let summation = 0;
     for (const number of numbers) {
-        summation += number
+        summation += number;
     }
-    return summation
+    return summation;
 }
-const nums = [12,123,12]
+const nums = [12,123,12];
 console.log(summationOfNumber(nums))
