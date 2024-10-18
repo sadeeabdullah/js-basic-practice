@@ -7,8 +7,16 @@ console.log(allPTag)
 
 // it is a method that select the portion or div using the ID name and innertext
 const traverseUsingTheId = document.getElementById('title')
-console.log(traverseUsingTheId)
+console.log(traverseUsingTheId) // it will provide only the element and we can easily manipulate it
 console.log(traverseUsingTheId.innerText)
+
+// it is a method that select the portion or div using the className name and innertext
+const traverseUsingTheclass = document.getElementsByClassName('title-class')
+console.log(traverseUsingTheclass) // it will provide array because it will
+for (const text of traverseUsingTheclass) {
+        console.log(text.innerText)
+}
+
 
 
 // how to change the style of the html element or building block
