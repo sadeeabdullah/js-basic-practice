@@ -11,4 +11,10 @@ console.log(li_container)
 
 // to get the first child we can use the firstChild metho or childNodes[] method here
 console.log(li_container[0].childNodes)
+console.log(li_container[0].firstChild)
 console.log(li_container[0].childNodes[2].nextSibling)
+
+
+// we can get the parent node using parentNode
+
+console.log(li_container[0].parentNode.parentNode) //output <main>
