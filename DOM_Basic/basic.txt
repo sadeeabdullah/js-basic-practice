@@ -2,3 +2,8 @@ DOM = Document Object Model
 
 When we develop a dynamic website first we need is Understanding DOM.
 It makes a model of HTML as an object. Then  follow  few methods to select a div or portion of HTML and manipulate it using JS.
+
+
+!!IMPORTANT:
+the script run seqentially.
+when we add any kind of event it will work before the after script and it will not work if we append or add another section using appenchild from the after script
