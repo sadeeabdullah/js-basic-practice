@@ -4,3 +4,11 @@ makeButtonBlue.onclick = makeBlue; // here i am just mentioning the function nam
 function makeBlue() {
     document.body.style.backgroundColor='blue'
 }
+
+/// option 1 to use addeventlistener
+
+const makePink = document.getElementById('make-pink');
+makePink.addEventListener('click',makePInk);
+function makePInk() {
+    document.body.style.backgroundColor='pink'
+}
