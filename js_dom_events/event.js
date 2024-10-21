@@ -18,9 +18,16 @@ function makePInk() {
 document.getElementById('make-goldenrod').addEventListener('click',function(){
     document.body.style.backgroundColor='goldenrod'
 })
+//in the above code we are using a funcition that have no name its called anonymous funcition
 
 //change text 
 function changeText(){
     const text = document.getElementById('default-text');
     text.innerText= 'Text set from the js'
 }
+
+/// change text using the value of the input value
+document.getElementById('change-text').addEventListener('click',function(){
+    const value = document.getElementById('input-text').value;
+    document.getElementById('text-change').innerText=value;
+})
