@@ -18,3 +18,9 @@ function makePInk() {
 document.getElementById('make-goldenrod').addEventListener('click',function(){
     document.body.style.backgroundColor='goldenrod'
 })
+
+//change text 
+function changeText(){
+    const text = document.getElementById('default-text');
+    text.innerText= 'Text set from the js'
+}
