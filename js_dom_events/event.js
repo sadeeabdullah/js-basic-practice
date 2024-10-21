@@ -28,6 +28,8 @@ function changeText(){
 
 /// change text using the value of the input value
 document.getElementById('change-text').addEventListener('click',function(){
-    const value = document.getElementById('input-text').value;
+    const input = document.getElementById('input-text')
+    const value = input.value
     document.getElementById('text-change').innerText=value;
+    input.value = ''
 })
