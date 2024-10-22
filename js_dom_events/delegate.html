@@ -20,15 +20,20 @@
 
     <!-- script here -->
      <script>
-        const items = document.getElementsByClassName('item')
-        for (const item of items) {
-            item.addEventListener('click',function(e){
-                console.log(item) // this is a way to find the items but there is an other way too
-                console.log(e.target.parentNode) // we can get their parent node easily
-                // now we  can remove the li using remove child
-                e.target.parentNode.removeChild(e.target)
-            })
-        }
+        // const items = document.getElementsByClassName('item')
+        // for (const item of items) {
+        //     item.addEventListener('click',function(e){
+        //         console.log(item) // this is a way to find the items but there is an other way too
+        //         console.log(e.target.parentNode) // we can get their parent node easily
+        //         // now we  can remove the li using remove child
+        //         e.target.parentNode.removeChild(e.target)
+        //     })
+        // }
+
+        //USING THE EVENT ON PARENT NODE TO REMOVE ALL THE LI ALSO THE NEW ADDED LI
+        document.getElementById('list-container').addEventListener('click',function(e){
+            e.target.parentNode.removeChild(e.target)
+        })
 
         // adding new event to add li
         document.getElementById('btn-add-li').addEventListener('click',function () {
@@ -39,6 +44,8 @@
             list_container.appendChild(li)
         })
         // if now i click on the item it will not delete  because the remove child function is executed before the adding event
+
+        //  TO AVOID THE PROBLEM WE HAVE TO USE THE EVENT INTO THE PARENT  NODE AND THIS IS CALLED 'DELEGATE'
      </script>
 </body>
 </html>
