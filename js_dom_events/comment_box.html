@@ -5,17 +5,31 @@
     <title>comment box</title>
 </head>
 <body>
-    <h1></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
+    <h1> comment is here</h1>
+    <div class="comment-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
+    </div>
 
     <h3>comment add</h3>
-    <textarea name="" cols="40 " rows="10" id="comment-here"></textarea>
+    <textarea name="" cols="40 " rows="10" id="comment-here" placeholder="comment here"></textarea><br>
+    <button id="add-comment">post</button>
 
     <!-- script comment-here -->
      <script>
-        
+        /// traversing all the element here
+        const post_button = document.getElementById('add-comment');
+        const comment_container = document.getElementById('comment-container');
+        const textarea = document.getElementById('comment-here')
+
+        post_button.addEventListener('click',function(){
+            if (textarea.value.length == 0) {
+                alert ('please type something')
+                return;
+            }
+            
+        })
      </script>
 </body>
 </html>
