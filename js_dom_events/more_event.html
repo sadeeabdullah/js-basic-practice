@@ -9,10 +9,23 @@
 <body>
     <h1>Explore more events</h1>
     <button id="btn-more">Events</button>
+    <input type="text" id="text-field">
 
     <script>
+        
+        //mousemove event
         document.getElementById('btn-more').addEventListener('mousemove',function(){
             console.log('event triggered')
+        })
+
+        //focus event
+        document.getElementById('text-field').addEventListener('focus',function(){
+            console.log('event focus')
+        })
+
+
+        document.getElementById('text-field').addEventListener('blur',function(){
+            console.log('event blur')
         })
     </script>
 </body>
