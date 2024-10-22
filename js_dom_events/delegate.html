@@ -15,6 +15,9 @@
         <li class="item">Voluptatem fugiat accusamus recusandae.</li>
     </ul>
 
+    <!-- adding new li after clicking on the button -->
+     <button id="btn-add-li">Add Li</button>
+
     <!-- script here -->
      <script>
         const items = document.getElementsByClassName('item')
@@ -26,6 +29,16 @@
                 e.target.parentNode.removeChild(e.target)
             })
         }
+
+        // adding new event to add li
+        document.getElementById('btn-add-li').addEventListener('click',function () {
+            const list_container = document.getElementById('list-container');
+            const li = document.createElement('li');
+            li.innerText = 'Brand  new li added'
+            li.classList.add('item')
+            list_container.appendChild(li)
+        })
+        // if now i click on the item it will not delete  because the remove child function is executed before the adding event
      </script>
 </body>
 </html>
