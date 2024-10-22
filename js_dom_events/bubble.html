@@ -8,7 +8,7 @@
     <h1>Exploring bubble</h1>
 
     <section>
-        <ul>
+        <ul id="ul-container">
             <li id="item-1">Lorem, ipsum.</li>
             <li id="item-2">Lorem ipsum dolor sit.</li>
             <li id="item-3">Lorem ipsum dolor sit.</li>
@@ -16,5 +16,21 @@
             <li id="item-5">Lorem ipsum dolor sit.</li>
         </ul>
     </section>
+
+    <!-- script here -->
+     <script>
+        document.getElementById('item-2').addEventListener('click',function(e){
+            console.log('item-2 clicked')
+            e.stopPropagation()
+        })
+
+        //click event on the parent of li
+        document.getElementById('ul-container').addEventListener('click',function(){
+            console.log('ulContainer  clicked')
+        })
+
+        //  HERE IF I CLICK ON ANY LI ELEMENT IT GOT BUBBLED RUN ALL THE EVENTS OF ITS PARENT.
+        // TO STOP THIS WE SHOULD USE A EVENT STOP PROPAGATION ON THE CHILD EVENT
+     </script>
 </body>
 </html>
