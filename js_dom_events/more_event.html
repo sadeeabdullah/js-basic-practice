@@ -10,6 +10,10 @@
     <h1>Explore more events</h1>
     <button id="btn-more">Events</button>
     <input type="text" id="text-field">
+    <br>
+    <input type="text" id="text-field2">
+    <input type="text" id="text-field3">
+    <input type="text" id="text-field4">
 
     <script>
         
@@ -23,9 +27,25 @@
             console.log('event focus')
         })
 
-
+        //blur event
         document.getElementById('text-field').addEventListener('blur',function(){
             console.log('event blur')
+        })
+
+        //keydown event
+        document.getElementById('text-field2').addEventListener('keydown',function(e){
+            // console.log(e.target) : it will show the event and its target
+            console.log(e.target.value) // it will show the value but not show the  index0 value
+        })
+        //keypress event
+        document.getElementById('text-field3').addEventListener('keypress',function(e){
+            // console.log(e.target) : it will show the event and its target
+            console.log(e.target.value) // it will show the value but not show the  last index value
+        })
+        //keyup event
+        document.getElementById('text-field4').addEventListener('keyup',function(e){
+            // console.log(e.target) : it will show the event and its target
+            console.log(e.target.value) // it will show all the value when the key is pressed and up
         })
     </script>
 </body>
