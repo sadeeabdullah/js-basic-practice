@@ -1,0 +1,4 @@
+EVENT CAPTURE VS EVENT BUBBLE
+
+Both are similarly opposite process.
+event capture dig in the target from the highest parent and bubble dig out from the target to parent node
