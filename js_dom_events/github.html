@@ -14,15 +14,18 @@
         //for enabling the delete button
         document.getElementById('dl-conf').addEventListener('keyup',function(e){
             const text = e.target.value;
-            if(text == 'delete'){
+            if(text === 'delete'){
                 document.getElementById('dl-btn').removeAttribute('disabled')
+            }
+            else{
+                document.getElementById('dl-btn').setAttribute('disabled',true)
             }
         })
         document.getElementById('dl-btn').addEventListener('click',function(){
             const secret = document.getElementById('text');
             secret.style.display='none'
             document.getElementById('dl-conf').value = ''
-
+            document.getElementById('dl-btn').setAttribute('disabled','disabled')
         })
      </script>
 </body>
