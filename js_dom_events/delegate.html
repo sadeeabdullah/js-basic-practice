@@ -14,5 +14,18 @@
         <li class="item">Facilis optio debitis porro!</li>
         <li class="item">Voluptatem fugiat accusamus recusandae.</li>
     </ul>
+
+    <!-- script here -->
+     <script>
+        const items = document.getElementsByClassName('item')
+        for (const item of items) {
+            item.addEventListener('click',function(e){
+                console.log(item) // this is a way to find the items but there is an other way too
+                console.log(e.target.parentNode) // we can get their parent node easily
+                // now we  can remove the li using remove child
+                e.target.parentNode.removeChild(e.target)
+            })
+        }
+     </script>
 </body>
 </html>
