@@ -23,6 +23,20 @@
             console.log('item-2 clicked')
             e.stopPropagation()
         })
+        document.getElementById('item-2').addEventListener('click',function(e){
+            console.log('item-2 second clicked')
+            e.stopImmediatePropagation()
+        })
+        document.getElementById('item-2').addEventListener('click',function(e){
+            console.log('item-2 third clicked')
+            e.stopPropagation()
+        })
+        document.getElementById('item-2').addEventListener('click',function(e){
+            console.log('item-2 fourth clicked')
+            e.stopPropagation()
+        })
+
+        // if i use stopPropagation method then it will stop run the same level propagation of same button or element but if i use stopImmediatePropagation method then it will stop the  propagation on this event
 
         //click event on the parent of li
         document.getElementById('ul-container').addEventListener('click',function(){
