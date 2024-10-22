@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1> comment is here</h1>
-    <div class="comment-container">
+    <div id="comment-container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt exercitationem praesentium possimus nesciunt culpa! Quod incidunt voluptatum unde, architecto ratione adipisci illo placeat esse similique rem, omnis itaque ab cum. Vel ut amet necessitatibus hic.</p>
@@ -24,11 +24,18 @@
         const textarea = document.getElementById('comment-here')
 
         post_button.addEventListener('click',function(){
+
             if (textarea.value.length == 0) {
                 alert ('please type something')
                 return;
             }
-            
+
+            const commentToAdd = textarea.value;
+            const P = document.createElement('p');
+            P.innerHTML = commentToAdd; 
+            comment_container.appendChild(P);
+
+            textarea.value = '';
         })
      </script>
 </body>
