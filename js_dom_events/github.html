@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github || delete</title>
+</head>
+<body>
+    <h1 id="text">My secret Info</h1>
+    <input type="text" id="dl-conf"><br>
+    <button id="dl-btn" disabled>Delete</button>
+
+    <!-- script here -->
+     <script>
+        //for enabling the delete button
+        document.getElementById('dl-conf').addEventListener('keyup',function(e){
+            const text = e.target.value;
+            if(text == 'delete'){
+                document.getElementById('dl-btn').removeAttribute('disabled')
+            }
+        })
+        document.getElementById('dl-btn').addEventListener('click',function(){
+            const secret = document.getElementById('text');
+            secret.style.display='none'
+            document.getElementById('dl-conf').value = ''
+
+        })
+     </script>
+</body>
+</html>
