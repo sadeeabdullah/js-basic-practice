@@ -15,3 +15,6 @@ const {phone,money}= human
 console.log(phone,money)
 
 // NOTE: The plus is you can get multiple value in one line code
+// NOTE 2 : YOU CAN CHANGE THE VARIABLES NAME INTO THE BRACES
+const {phone: mobile, age: boyosh} = human
+console.log(mobile,boyosh)
